@@ -1,0 +1,25 @@
+---
+title: "Atividade Prática 3"
+author: "Henrique Garbin"
+date: "19/11/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+- Implementar uma aplicação que acesse e utilize os dados fornecidos por uma API
+já existente na Internet.
+
+Para essa atividade, reaproveitei a material que estou usando na monografia. Sendo assim,realizei a conexão com a api da camara dos deputados através do site: https://dadosabertos.camara.leg.br/swagger/api.html. No site, selecionei a parte de deputados e clickei em "Execute". O Execute me entregou o endereço do Resquest URL.
+Após isso, desenvoilvi o código "Atividade Prática 3.ipynb", onde eu realizo o download dos dados através da API e construo um gráfico simples com a quantiadde de deputados por partidos.
+
+
+
+
+
